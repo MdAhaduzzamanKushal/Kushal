@@ -1,0 +1,290 @@
+*{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    padding: 0;
+
+}
+
+/* Header and navigation */
+
+/* .header-img{
+    width: 1300px;
+    height: 700px;
+    object-fit: cover;
+} */
+
+.header{
+    background-image:url('../images/banner/banner2.png');
+
+    
+  /* Full height */
+  height: 600px;
+  width: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.header-title{
+    font-weight: 700;
+    font-size: 50px;
+    text-align: right;
+    padding-top: 15%;
+    padding-right: 12%;
+    padding-bottom:2%;
+    padding-left: 0%;
+    
+}
+
+.header-subtitle{
+    font-weight: 400;
+    font-size: 12px;
+    text-align: right;
+    width: 494px;
+     
+    
+    padding-left: 47.80%;
+    color: #444343;
+
+}
+.header-btn{
+    position: absolute;
+    width: 130px;
+    height: 50px;
+    left: 78%;
+    top: 87%;
+    border: none;
+    
+    
+    background: #F15B22;
+    border-radius: 5px;
+    color: #FFFFFF;
+    border: none;
+    font-weight: 600;
+    font-size: 15px;
+
+}
+/* Main */
+.main{
+    margin: 0 150px;
+    display: flex;
+    
+}
+.main-title{
+    font-weight: 700px;
+    font-size: 30px;
+    /* text-align:  right; */
+    gap: 100px;
+    
+
+    
+    
+    padding-top: 65%;
+    padding-right: 0%;
+    padding-bottom:5%;
+    padding-left:20%;
+    font-family: 'Open Sans', sans-serif;
+
+}
+.main-sub-title{
+    
+    font-weight: 400;
+    font-size: 12px;
+    padding-left:20%;
+    color: #444343;
+    line-height: 26px;
+    padding-bottom:8px;
+
+}
+
+.main-img{
+    
+    margin-top: 200px;
+    width: 451px;
+    height: 70%;
+
+}
+
+.a{
+
+    padding-left:20% ;
+    line-height: 26px;
+    font-size: 12px;
+    color: #444343;
+    
+   
+
+}
+
+i{
+    color: lightgreen;
+    width: 24px;
+    height: 24px;
+
+}
+
+/* My Plan */
+.My-Plans-title{
+    text-align: center;
+    font-weight: 700px;
+    font-size: 30px;
+    padding-bottom:5%;
+    
+}
+
+.skill-container {
+    display: flex;
+    gap: 120px;
+    padding-left: 7%;
+    text-align: center;
+
+}
+
+.skill-title{
+    
+    padding-bottom: 5%;
+}
+
+.skill-img{
+    
+    /* padding-left: 50%; */
+    height: 75px;
+    padding-bottom: 7%;
+}
+
+.skill-description{
+    color: #737272;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+
+
+
+/* Footer details */
+footer{
+    background-color:#151414;
+    height: 400px;
+    margin-top: 80px;
+    
+
+}
+.footer{
+    display: flex;
+    padding: 0px 150px;
+    gap: 300px;
+}
+.footer-left{
+    color: #F8F8F8;
+    
+}
+
+.footer-right{
+    color: #FFFFFF;
+}
+
+.footer-h3{
+    font-weight: 700;
+    font-size: 30px;
+    margin-top:80px;
+}
+.footer-p{
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 12px;
+    
+}
+
+.footer-h4{
+    margin-top: 15px;
+    font-weight: 400;
+    font-size: 12px;
+}
+.img-source{
+    margin-top: 24px;
+   margin-right: 8px;
+   height: 35px;
+
+}
+
+
+.footer-input{
+    padding: 12px;
+    width:200px ;
+    border-radius: 10px;
+    border: 1px  white;
+    background: #151414;
+    
+
+}
+.footer-h3-right{
+    font-weight: 600;
+    font-size: 22px;
+    margin-top:80px;
+}
+
+input{
+    margin-top: 30px;
+}
+
+
+.footer-btn{
+    margin-top:20px ;
+    background: #FFFFFF;
+    width: 130px;
+    height: 50px;
+    left: 78%;
+    top: 87%;
+    border: none;
+    color: #F15B22;
+    font-weight: 600;
+    font-size: 14px;
+    border-radius: 7px;
+    
+
+
+}
+
+.gradient-color-overlay{
+    background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%);
+    width: 100%;
+    position: absolute;
+    opacity: 0.6;
+    height: 63.5%;
+
+    padding-bottom: 110px;
+}
+.watch-btn-gradient{
+    color: #b30101;
+    width: 160px;
+    height: 64px;
+    background: white;
+    border-radius: 5px;
+    border: none;
+    margin-top: 16px;
+    font-weight: 600;
+    font-size: 20px;
+    margin-left: 150px;
+    margin-bottom: 80px;
+}
+.watch-h2-gradient{
+    font-family: 'Work Sans';
+    margin-left: 150px;
+    font-weight: 700;
+font-size: 40px;
+padding-top: 60px;
+color: #d40000;
+}
+
+.watch-gradient {
+    background-image: url('images/watch.png');
+    height: 300px;
+    width:1000px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 8px;
+    margin-top: 125px;
+    position: relative;
+    margin-left:115px ;
+}
